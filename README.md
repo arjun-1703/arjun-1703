@@ -1,162 +1,176 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:0b132b,100:00a0c6&height=220&section=header&text=Arjun%20Gupta&fontSize=55&fontColor=ffffff&fontAlignY=42&desc=Full%20Stack%20Developer%20%7C%20AI%2FML%20Engineer&descAlignY=65&descSize=21&animation=fadeIn" width="100%"/>
+# Arjun Gupta
 
-### Full Stack Developer | AI/ML Engineer 🌐
+### Computer Science & Engineering Student
 
-[![Profile Views](https://komarev.com/ghpvc/?username=arjun-1703&label=Profile%20Views&color=00a8e8&style=flat)](https://github.com/arjun-1703)
-[![GitHub followers](https://img.shields.io/github/followers/arjun-1703?label=Followers&style=flat&color=00a8e8)](https://github.com/arjun-1703?tab=followers)
-[![Portfolio](https://img.shields.io/badge/Portfolio-00a8e8?style=flat&logo=vercel&logoColor=white)](https://my-portfolio-delta-two-11.vercel.app/)
+<a href="https://github.com/arjun-1703">
+  <img src="https://img.shields.io/badge/GitHub-arjun--1703-181717?style=flat&logo=github"/>
+</a>
+<a href="https://my-portfolio-delta-two-11.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-Live-00a8e8?style=flat&logo=vercel&logoColor=white"/>
+</a>
 
 </div>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-```json
-{
-  "name": "Arjun Gupta",
-  "role": "Full Stack Developer | AI/ML Engineer",
-  "education": "B.Tech in Computer Science",
-  "focus": [
-    "Full Stack Development",
-    "Artificial Intelligence",
-    "Machine Learning",
-    "RAG Systems",
-    "Computer Vision"
-  ],
-  "currently_learning": [
-    "LangChain",
-    "LLMs",
-    "Advanced Machine Learning",
-    "System Design"
-  ],
-  "currently_building": [
-    "AI-powered applications",
-    "RAG systems",
-    "Full-stack projects"
-  ]
-}
-```
+I am a Computer Science and Engineering student at Jaypee Institute of Information Technology.
+
+My projects and coursework include web development, machine learning,
+computer vision, and software development.
 
 ---
 
-## 🛠️ Tech Stack
+## Technologies
 
-### Languages
+### Programming
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js,php,mysql" />
+<p>
+<img src="https://skillicons.dev/icons?i=python,cpp,java,javascript,php,mysql" />
 </p>
 
 ### Web Development
 
-<p align="left">
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,php,mysql" />
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,react,nodejs,php,mysql" />
 </p>
 
-### AI / ML
+### Machine Learning / Computer Vision
 
-<p align="left">
+<p>
 <img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,sklearn" />
 </p>
 
 ### Tools
 
-<p align="left">
+<p>
 <img src="https://skillicons.dev/icons?i=git,github,vscode,anaconda,docker,linux" />
 </p>
 
 ---
 
-## 🚀 Featured Projects
+## Projects
 
-### 🤖 wCodebase Q&A — RAG System
+### rPPG Based Heart Rate Monitor
 
-An AI-powered codebase question-answering system that retrieves relevant repository content and uses RAG to answer natural-language questions about a GitHub codebase.
+A contactless heart-rate monitoring system using webcam video and computer vision.
 
-**Tech:** `Python` `LangChain` `LlamaIndex` `GitHub API` `FAISS` `ChromaDB`
+**Technologies:** Python, OpenCV, MediaPipe, NumPy, SciPy
 
-- 📂 GitHub repository ingestion
-- 🔍 Semantic retrieval
-- 🧠 Retrieval-Augmented Generation
-- 💬 Natural-language codebase Q&A
-- 📚 Processing repository documentation and comments
+- Uses facial regions including the forehead and cheeks.
+- Extracts skin pixels using YCrCb and HSV color spaces.
+- Processes the extracted signal using band-pass filtering.
+- Uses FFT and peak detection for heart-rate estimation.
+- Provides real-time heart-rate and signal-quality information.
 
----
-
-### 📚 SweetReads — Book Review Platform
-
-A full-stack Goodreads-inspired platform for discovering, reviewing and rating books.
-
-**Tech:** `HTML` `CSS` `JavaScript` `PHP` `MySQL`
-
-- 🔐 User authentication
-- ⭐ Ratings and reviews
-- 📚 Book management
-- 🔄 Complete CRUD workflows
-- 🎯 Recommendation functionality
-- 📱 Responsive interface
+[View Repository](https://github.com/arjun-1703/rPPG_based_Heart_Rate_Monitor)
 
 ---
 
-### ❤️ rPPG Heart Rate Monitoring
+### Insider Trading Signal Detector
 
-A computer-vision based system for estimating heart rate from facial video using remote photoplethysmography.
+A machine-learning project for detecting unusual price and volume patterns in
+NSE-listed stocks.
 
-**Tech:** `Python` `OpenCV` `MediaPipe` `NumPy` `SciPy`
+**Technologies:** Python, scikit-learn, Pandas, Streamlit, yfinance
 
-- 🎥 Real-time webcam processing
-- 🙂 Facial landmark detection
-- 🎯 Forehead ROI extraction
-- 🟢 Skin segmentation
-- 📈 Signal processing
-- ❤️ FFT-based BPM estimation
+- Uses financial and market features including PE, PEG, EPS, returns and beta.
+- Uses price, volume, fundamental and risk-related features.
+- Uses a Gradient Boosting Regressor for fair-value estimation.
+- Compares predicted fair value with actual price.
+- Generates an anomaly score based on price and volume behaviour.
+- Provides a Streamlit interface for analysis.
 
----
-
-### 📈 Stock Market / Insider Trading ML
-
-A machine-learning project exploring stock-price prediction using financial and market-related features.
-
-**Features:** `P/E` `PEG` `Beta` `VIX` `Volume Z-Score` `ML Models`
+[View Repository](https://github.com/arjun-1703/insider-ml)
 
 ---
 
-## 📊 GitHub Statistics
+### Personal Portfolio
+
+My personal portfolio website.
+
+**Technologies:** React, TypeScript, Vite, Tailwind CSS, Framer Motion,
+Three.js, React Three Fiber
+
+**Live Website:**  
+https://my-portfolio-delta-two-11.vercel.app/
+
+[View Repository](https://github.com/arjun-1703/My-Portfolio)
+
+---
+
+### SweetReads
+
+A full-stack book review and recommendation platform.
+
+**Technologies:** HTML, CSS, JavaScript, PHP, MySQL
+
+- User authentication
+- Book ratings
+- Reviews
+- CRUD operations
+- Recommendation functionality
+- Responsive interface
+
+---
+
+## Internship
+
+### Frontend Developer Intern — CODTECH IT Solutions
+
+**June 2026 – August 2026**
+
+During my internship, I worked on four frontend projects:
+
+- Interactive Quiz
+- Personal Portfolio
+- Real-Time Chat Application
+- E-Learning Platform UI
+
+**Technologies used:**
+
+`ReactJS` `Tailwind CSS` `React Router` `Framer Motion` `WebSockets`
+
+The work involved designing responsive interfaces, building reusable components,
+implementing navigation and interactive functionality, and working with
+real-time communication.
+
+---
+
+## Education
+
+### Jaypee Institute of Information Technology, Noida
+
+**B.Tech — Computer Science and Engineering**
+
+---
+
+## GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=arjun-1703&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=arjun-1703&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjun-1703&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arjun-1703&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 
 </div>
 
 ---
 
-## 🔥 GitHub Streak
+## GitHub Activity
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=arjun-1703&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=arjun-1703&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 ---
 
-## 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arjun-1703&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
-
-</div>
-
----
-
-## 🌐 Connect With Me
+## Links
 
 <div align="center">
 
@@ -167,20 +181,5 @@ A machine-learning project exploring stock-price prediction using financial and 
 <a href="https://my-portfolio-delta-two-11.vercel.app/">
 <img src="https://img.shields.io/badge/Portfolio-00a8e8?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
-
-<!-- Add your LinkedIn URL here -->
-<!-- <a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a> -->
-
-</div>
-
----
-
-<div align="center">
-
-### 🚀 Building • Learning • Creating
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b132b,100:00a0c6&height=100&section=footer"/>
 
 </div>
